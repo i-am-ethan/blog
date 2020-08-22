@@ -1,0 +1,252 @@
+/*
+Theme Name: イーサンの気ままにブログ（必須）
+Theme URL: テーマのサイトのURI
+Description: 駆け出しエンジニアイーサンの気ままなブログ
+Author: イーサン
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+
+/* ナビメニュー */
+/* .nav{
+  height: 100px;
+  background: blue;
+} */
+*{
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+header {
+  background: rgb(240, 224, 221);
+  width: 90%;
+  margin: 0 auto;
+}
+header h1{
+  font-size: 50px;
+  color: #ffaa39;
+  margin: 0;
+}
+header h2{
+  color: #4c96c6;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.main {
+  background: pink;
+  width: 70%;
+}
+.mainmain{
+  font-family: 'serif',Helvetica,Arial,sans-serif;
+  margin: 0 auto;
+  background: white;
+  width: 95%;
+}
+.mainmain h1{
+  margin: 0;
+}
+.main h1{
+  background: #4d95c6;
+  color: #FFFFFF;
+}
+/* 投稿について */
+.mainpost{
+  margin: 5px;
+}
+.mainpostcontainer{
+  display: flex;
+}
+.mainpost_content{
+  width: 70%;
+}
+.mainpost_content h2{
+  margin: 0;
+}
+.mainpost_content p{
+  margin: 0;
+}
+.mainpost_thumbnail{
+  text-align: center;
+  margin: 0;
+  width: 30%;
+}
+.mainpost_written p{
+  margin: 0;
+}
+
+/* サイドバー */
+.side {
+  background: orange;
+  width: 30%;
+}
+.sideside {
+  background: rgb(242, 255, 53);
+  width: 95%;
+  margin-top: 20px;
+  margin-right:  auto;
+  margin-left:  auto;
+}
+.wprofile{
+  margin: 20px auto;
+}
+.widget-title{
+  text-align: center;
+  margin: 0 auto;
+}
+.widget-title h1{
+  margin-top: 10px;
+}
+.widget-title h2{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.wprofile-img{
+  text-align: center;
+  margin: 0 auto;
+}
+.wprofile-img img{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+}
+.wprofile-content h2{
+text-align: center;
+margin: 0 auto;
+}
+.wprofile-content p{
+text-align: center;
+margin: 0 auto;
+}
+.widget_search{
+ text-align: center;
+ margin: 20px auto;
+}
+.widget_popular{
+  text-align: center;
+  margin: 20px auto;
+}
+.wpost-item-body{
+  text-align: left;
+}
+.widget_recent{
+  text-align: center;
+  margin: 20PX auto;
+}
+.widget_archive{
+  margin: 20px auto;
+
+}
+
+/* フッター */
+footer {
+  background: plum;
+}
+/* ナビメニュー  */
+#nav{
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  padding: 0;
+  background: #555555;
+  list-style: none;
+  display: flex;
+}
+#nav li{
+  margin: auto;
+  text-align: center;
+  width: 25%;
+}
+#nav li+li{
+  border-left: 1px solid #FFFFFF;
+}
+#navnav{
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* ナビ終わり＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* ナビ２ */
+.nav1{
+  background: greenyellow;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  width: 90%;
+  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#nav1{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+}
+
+#menu-all-pages-flat.menu{
+  text-align: center;
+  margin: 0;
+  display: flex;
+  background: #555555;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#menu-item-2421{
+  padding: 5px;
+  color: white;
+  text-align: center;
+  width: 25%;
+  background: orange;
+  text-decoration: none;
+  margin-right:3px ;
+}
+#menu-item-2417{
+  padding: 5px;
+  text-align: center;
+  width: 25%;
+  background: orange;
+  text-decoration: none;
+  margin-right:3px ;
+}
+#menu-item-2427{
+  padding: 5px;
+  text-align: center;
+  width: 25%;
+  background: orange;
+  margin-right:3px ;
+}
+#menu-item-2426{
+  padding: 5px;
+  text-align: center;
+  width: 25%;
+  background: orange;
+}
+/* ナビ２終わり */
+
+body{
+  background-color: whitesmoke;
+}
